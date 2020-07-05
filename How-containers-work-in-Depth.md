@@ -1,5 +1,5 @@
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-											## How Docker containers work in depth
+					 #  How Docker containers work in depth
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 #1. What is a Docker Container
@@ -12,13 +12,13 @@
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-												#1. What is a Docker Container
+					    #1  What is a Docker Container
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
- * Runtime of an image.
- * Containers are Temporary.
- * The Layer is Read Write.
- * WE can create as many container's as we want from an image
+- Runtime of an image.
+- Containers are Temporary.
+- The Layer is Read Write.
+-  WE can create as many container's as we want from an image
 
 1. Container is nothing but a Runtime Presentation of an Image
 
@@ -43,6 +43,8 @@ Docker run command has lot of options , Just type  [ docker run  -- help ] you g
 
 By using docker run we can add 
         
+	```sh
+	
 		-- cpu limits
 		-- we can put containers in detach mode 
 		-- we can do DNS
@@ -52,6 +54,7 @@ By using docker run we can add
 		-- we can add memory limits 
 		-- We can assign a names to the container.
 		
+	````
 # To Create a container we basically need a Image.
 
 [ docker images]
